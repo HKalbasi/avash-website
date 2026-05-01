@@ -1,0 +1,26 @@
+@font-face {
+  font-family: 'B Zar';
+  src: url('BZar.woff') format('woff'),
+       url('BZar.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'B Titr';
+  src: url('BTitrBd.woff') format('woff'),
+       url('BTitrBd.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'B Nazanin';
+  src: url('BNAZANIN.woff') format('woff'),
+       url('BNAZANIN.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
