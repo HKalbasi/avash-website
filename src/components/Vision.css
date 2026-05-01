@@ -1,0 +1,82 @@
+.vision {
+  padding: 5rem 2rem;
+  background: #111;
+  color: #fff;
+}
+
+.vision-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-bottom: 4rem;
+}
+
+.vision-card {
+  background: rgba(0, 212, 255, 0.05);
+  padding: 2rem;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 212, 255, 0.3);
+}
+
+.vision-card h3 {
+  color: #00d4ff;
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
+}
+
+.vision-card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.vision-card li {
+  padding: 0.5rem 0;
+  color: #ccc;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.vision-card li:last-child {
+  border-bottom: none;
+}
+
+.motto-text {
+  font-size: 1.3rem;
+  font-style: italic;
+  color: #00d4ff;
+  text-align: center;
+  padding: 1rem;
+  border-left: 3px solid #00d4ff;
+}
+
+.principles {
+  margin-top: 3rem;
+}
+
+.principles-title {
+  text-align: center;
+  color: #00d4ff;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.principles-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.principle {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 1.5rem;
+  border-radius: 10px;
+}
+
+.principle h4 {
+  color: #00d4ff;
+  margin-bottom: 1rem;
+}
+
+.principle p {
+  color: #ccc;
+  line-height: 1.8;
+}
